@@ -447,10 +447,13 @@
 					<div class="activation">
 						<form class="footerform js-speaker-form" autocomplete="off">
 							<input type="email" name="footer" placeholder="E-mail" />
+							<button class="footer-button" type="submit">
+								<span class="footerbtn-text">Подписаться</span>
+								<svg class="icon-telegram" width="24" height="24">
+									<use href="./images/sprite.svg#icon-telegram"></use>
+								</svg>
+							</button>
 						</form>
-						<a href="" class="footer-button">
-							Подписаться
-						</a>
 					</div>
 				</div>
 			</div>
@@ -460,14 +463,15 @@
 
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
+				<button class="button-close" type="button" data-modal-close>
+					<svg class="button-close-icon" width="11" height="11">
+						<use href="./images/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+
 				<!--Форма в модальном окне-->
 
 				<form class="form js-speaker-form" autocomplete="off">
-					<button class="button-close" type="button" data-modal-close>
-						<svg class="button-close-icon" width="11" height="11">
-							<use href="./images/sprite.svg#icon-close"></use>
-						</svg>
-					</button>
 					<div class="form-header">
 						<b>Оставьте свои данные, мы вам перезвоним</b>
 					</div>

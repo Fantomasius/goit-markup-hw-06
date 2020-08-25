@@ -352,12 +352,15 @@
 				<div class="act-container">
 					<b class="act">Подпишитесь на рассылку</b>
 					<div class="activation">
-						<form class="footerform js-speaker-form">
+						<form class="footerform js-speaker-form" autocomplete="off">
 							<input type="email" name="footer" placeholder="E-mail" />
+							<button class="footer-button" type="submit">
+								<span class="footerbtn-text">Подписаться</span>
+								<svg class="icon-telegram" width="24" height="24">
+									<use href="./images/sprite.svg#icon-telegram"></use>
+								</svg>
+							</button>
 						</form>
-						<a href="" class="footer-button">
-							Подписаться
-						</a>
 					</div>
 				</div>
 			</div>
